@@ -8,6 +8,7 @@ This section providers the vagrantfiles to be used in conjution with the [bootst
 
 ##Prerequisite
 - It needs vagrant to be installed on local machine
+- it needs VirtualBox to be installed on local machine
 
 #Steps to use it 
 - if using first time 
