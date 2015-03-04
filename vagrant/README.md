@@ -1,5 +1,5 @@
 ##Vagrant
-This section providers the vagrantfiles to be used in conjution with the [bootstrap](https://github.com/dvadgama/machine_build_scripts/tree/master/bootstrap)scripts.
+This section providers the vagrantfiles to be used in conjution with the [bootstrap](https://github.com/dvadgama/machine_build_scripts/tree/master/bootstrap) scripts.
 
 
 ##Supplied Vagrantfiles 
