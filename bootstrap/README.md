@@ -25,10 +25,8 @@ These script, is responsible to install puppet matster with hiera, on desired Vi
   - This files says
      - from where to get [puppetfile](https://github.com/dvadgama/puppetfile.git) and, where to deploy it i.e. "/etc/puppet/environments/" in this case
      - from where to get [hiera-data](https://github.com/dvadgama/puppet_data.git) and, where to deploy it i.e. "/etc/puppet/data/" in thid case
-- deploy r10k in default "master" environment.This default environemt is master because, that is the only and default branch in git repo, pointed by /etc/r10.yaml.
+- deploy r10k in default "master" environment.This default environemt is master because, that is the only and default branch in git repo, pointed by /etc/r10k.yaml.
   - deployment does two things
     - it installs module listed in [puppetfile](https://github.com/dvadgama/puppetfile/blob/master/Puppetfile)  under /etc/puppet/environments/master
     - it installs [hiera-data](https://github.com/dvadgama/puppet_data.git) under /etc/puppet/data/master/
 - Once all of it is done , install the hiera config  & puppetmaster with 'puppet apply' 
-    
-- 
