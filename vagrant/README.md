@@ -11,9 +11,9 @@ This section providers the vagrantfiles to be used in conjution with the [bootst
 
 #Steps to use it 
 - if using first time 
-  ```
-   vagrant init
-   ```
+```
+vagrant init
+```
 - To bring up a vm 
 ```
 vagrant up puppetmaster 
