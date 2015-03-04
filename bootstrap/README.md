@@ -1,4 +1,4 @@
-##puppetmaster
+##puppetmaster.sh
 These script, is responsible to install puppet matster with hiera, on desired Virtualisation platform
 
 ##Steps of this script
