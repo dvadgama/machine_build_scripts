@@ -14,9 +14,9 @@ This script will build the ubuntu based puppet mater in a aws environment, it he
 
 ##Prerequisite
 - You will need to install ruby gem, fog 
-  ``` 
-   gem install fog 
-  ```
+``` 
+gem install fog 
+```
 - You will need to create a service account in google cloude and use your client email 
 - Download the serice account key (.p12) and, remove the passphrase from it ( as expained in Notes)
 - Upload your public key in google credentials to be able to bootstrap server 
