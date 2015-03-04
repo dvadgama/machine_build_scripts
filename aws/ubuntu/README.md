@@ -18,3 +18,5 @@ This script will build the ubuntu based puppet mater in a aws environment, it he
  chmod +x bootstrap_puppetmaster.rb
  ./bootstrap_puppetmaster.rb
 ```
+##Note
+ This script also happned to be one of the building block for the custom [cloud_machine](https://github.com/dvadgama/cloud_services/tree/master/lib/puppet) type , in [cloud_services](https://github.com/dvadgama/cloud_services) module
