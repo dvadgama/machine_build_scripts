@@ -1,7 +1,7 @@
 ##puppetmaster.sh
 These script, is responsible to install puppet matster with hiera, on desired Virtualisation platform
 
-##Steps of this script
+##What it does?
 - install latest/appropriate version of  puppet(client)
 - install r10k ( a ruby gem to manager puppet libraray, you can find more about it [here](http://terrarum.net/blog/puppet-infrastructure-with-r10k.html)
 - install r10k file 
