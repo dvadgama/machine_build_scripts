@@ -12,8 +12,13 @@ This script will build the ubuntu based puppet mater in a aws environment, it he
 - **ENV['client_email']:**     YOU_MUST_SUPPLY_THIS
 - **ENV['key_location']:**     YOU_MUST_SUPPLY_THIS
 
+##Prerequisite
+- You will need to create a service account in google cloude and use your client email 
+- Download the serice account key (.p12) and, remove the passphrase from it ( as expained in Notes)
+- Upload your public key in google credentials to be able to bootstrap server 
+- 
 ##Usage
-- Once , Approprite ENV variables are set 
+- Once , Approprite ENV variables are set
 ```
  chmod +x bootstrap_puppetmaster.rb
  ./bootstrap_puppetmaster.rb
