@@ -13,6 +13,10 @@ This script will build the ubuntu based puppet mater in a aws environment, it he
 - **ENV['aws_secret_access_key']:** YOU_MUST_SUPPLY_THIS
 
 ##Prerequisite
+- You will need to install ruby gem, fog 
+  ``` 
+   gem install fog 
+  ```
 - You will need to upload your public key in aws and store it in key pair.
 - You will need to use approppriate username for bootstrap, depending upon image you use.
 
