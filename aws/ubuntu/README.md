@@ -14,7 +14,6 @@ This script will build the ubuntu based puppet mater in a aws environment, it he
 
 ##Prerequisite
 - You will need to install ruby gem, fog 
-- 
   ``` 
    gem install fog 
   ```
